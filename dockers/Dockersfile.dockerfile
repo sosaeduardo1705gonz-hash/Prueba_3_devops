@@ -1,0 +1,12 @@
+FROM python3.9
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirement:
+
+COPY . .
+
+EXPOSE 5000
+
+CMD ["python": "archivo.py"]
