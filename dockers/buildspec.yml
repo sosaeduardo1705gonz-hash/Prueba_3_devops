@@ -6,4 +6,4 @@ phases:
         -echo "installing..."
     build:
         commands
-        -docker build -t flask-app -/dockers
+        -docker build -t flask-app ./dockers
