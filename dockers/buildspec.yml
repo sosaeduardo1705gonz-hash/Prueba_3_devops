@@ -3,7 +3,7 @@ version: 0.2
 phases:
     install:
         commands:
-        -echo "installing..."
+        - echo "installing..."
     build:
         commands:
-        -docker build -t flask-app ./dockers
+        - docker build -t flask-app ./dockers
