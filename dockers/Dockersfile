@@ -1,6 +1,6 @@
 FROM python3.9
 
-WORKDIR /app
+WORKDIR /dockers
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirement:
